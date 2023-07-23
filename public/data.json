@@ -1,0 +1,75 @@
+
+     [
+      {
+        "name": "University of Exampleville",
+        "picture": "https://i.ibb.co/ThPVTQx/images-1.jpg",
+        "admission_date": "2023-09-01",
+        "events": [
+          {
+            "event_name": "Orientation Day",
+            "date": "2023-09-15",
+            "location": "Main Campus"
+          },
+          {
+            "event_name": "Career Fair",
+            "date": "2023-10-20",
+            "location": "Student Center"
+          },
+          {
+            "event_name": "Alumni Homecoming",
+            "date": "2024-05-05",
+            "location": "Football Stadium"
+          }
+        ],
+        "research_history": [
+          {
+            "title": "Advancements in Renewable Energy",
+            "publication_date": "2022-12-01",
+            "authors": ["John Smith", "Jane Doe"]
+          },
+          {
+            "title": "The Impact of Artificial Intelligence on Society",
+            "publication_date": "2023-03-15",
+            "authors": ["Alice Johnson", "Robert Brown"]
+          }
+        ],
+        "sports": ["Basketball", "Soccer", "Swimming"]
+      },
+      {
+        "name": "Example State College",
+        "picture": "https://i.ibb.co/7k1htkK/images.jpg",
+        "admission_date": "2023-08-15",
+        "events": [
+          {
+            "event_name": "Freshers' Welcome Party",
+            "date": "2023-08-30",
+            "location": "Campus Grounds"
+          },
+          {
+            "event_name": "Science Expo",
+            "date": "2023-11-10",
+            "location": "Science Building"
+          },
+          {
+            "event_name": "Music Fest",
+            "date": "2024-04-25",
+            "location": "Amphitheater"
+          }
+        ],
+        "research_history": [
+          {
+            "title": "Climate Change and Its Implications",
+            "publication_date": "2023-01-20",
+            "authors": ["Michael Adams", "Sophia Lee"]
+          },
+          {
+            "title": "The Future of Space Exploration",
+            "publication_date": "2023-04-05",
+            "authors": ["David Clark", "Emily Wilson"]
+          }
+        ],
+        "sports": ["Football", "Tennis", "Volleyball"]
+      }
+    ]
+  
+  
