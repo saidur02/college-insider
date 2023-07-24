@@ -4,7 +4,8 @@ import { app } from "../../Firebase/firebase.confiq";
 
 
 
-export const AuthContext = createContext();
+// export const AuthContext = createContext();
+export const AuthContext = createContext()
 
 const auth = getAuth(app);
 
@@ -38,13 +39,14 @@ const AuthProvider = ({children}) => {
 
     const updateUserProfile = (name, photo) => {
         return updateProfile(auth.currentUser, {
-            displayName: name, photoURL: photo
+            displayName: name
         });
     }
 
     useEffect(() => {
         const unSubscribe = onAuthStateChanged(auth,currentUser =>{
-            setUser(currentUser) 
+            setUser(currentUser)
+            
             setLoading(false);
         });
         return () =>{

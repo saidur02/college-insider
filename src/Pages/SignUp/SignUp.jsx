@@ -1,6 +1,5 @@
 import React, { useContext } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-
 import { useForm } from 'react-hook-form';
 import Swal from 'sweetalert2';
 import { AuthContext } from '../Providers/AuthProvider';
@@ -42,7 +41,7 @@ const SignUp = () => {
                             })
 
 
-
+    
                     })
                     .catch(error => console.log(error))
             })
@@ -96,13 +95,7 @@ const SignUp = () => {
                                 {errors.password?.type === 'pattern' && <span className='text-red-600'>Password Must Have One Uppercase and One One Special Characters required</span>}
                                 {errors.password?.type === 'minLength' && <span className='text-red-600'>Password Must 6 Characters</span>}
                             </div>
-                            <div className="form-control">
-                                <label className="label">
-                                    <span className="label-text">Photo Url</span>
-                                </label>
-                                <input type="text"{...register("photo", { required: true })} name='photo' placeholder="Your Photo Url" className="input input-bordered" />
-                                {errors.photo && <span className='text-red-600'>This field is required</span>}
-                            </div>
+                          
                             <div className="form-control mt-6">
                                 <button className="btn btn-primary">Register</button>
                             </div>
