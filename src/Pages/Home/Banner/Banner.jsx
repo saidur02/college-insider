@@ -12,7 +12,7 @@ const Banner = () => {
             <div className="bg-cover bg-center h-screen w-screen opacity-70  bg-[url(https://i.ibb.co/mvjf86g/photo-1562774053-701939374585.jpg)] 
               bg-no-repeat">
                 <div className='justify-center text-center '>
-                    <h2 className='text-7xl text-yellow-400 pt-64'> Visit Here For Build Your Future</h2>
+                    <h2 className='text-7xl text-rose-600 pt-64'> Come Here For Build Your Future</h2>
                 </div>
             </div>
         </div>
